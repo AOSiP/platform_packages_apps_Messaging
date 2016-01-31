@@ -14,15 +14,14 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
-    <!-- Swipe to delete -->
-    <string name="swipe_right_deletes_conversation_text">Swipe right deletes conversation</string>
+    <style name="InvisibleNoDisplay" parent="BugleBaseTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
 
-    <!-- Shortcuts -->
-    <string name="shortcuts_compose_new">New message</string>
-
-    <!-- Show emoticons -->
-    <string name="show_emoticons_pref_title">Emoticons access</string>
-    <string name="show_emoticons_pref_summary">Show the emoticons key on the keyboard</string>
 </resources>
