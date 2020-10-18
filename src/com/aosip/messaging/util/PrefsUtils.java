@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.messaging.util;
+package com.aosip.messaging.util;
 
 import android.content.Context;
 import com.android.messaging.Factory;
